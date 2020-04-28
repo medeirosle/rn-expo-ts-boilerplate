@@ -1,5 +1,4 @@
 import React from 'react'
-import { render } from 'react-dom'
 import { StyleSheet, Text, View } from 'react-native'
 import { ApolloProvider } from 'react-apollo'
 import { ApolloProvider as ApolloHooksProvider } from '@apollo/react-hooks'
@@ -28,5 +27,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   }
 })
-
-render(App(), document.getElementById('root'))
